@@ -2,14 +2,13 @@ import seafoodPizza from '../seafood_pizza.png';
 
 export default function Contact() {
     return (
-        <div className="contact-page">
+        <div className="contact-page" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${seafoodPizza})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
             <h2>Contact Us</h2>
             <div className="contact-content">
-                <img src={seafoodPizza} alt="Seafood Pizza" className="contact-image" />
                 <div className="contact-info">
-                    <p><strong>Address:</strong> 123 Pizza Street, Foodville</p>
-                    <p><strong>Phone:</strong> (555) 123-4567</p>
-                    <p><strong>Email:</strong> hello@luigispizza.com</p>
+                    <p><strong>Address:</strong> No.12, Galle Fort, Galle</p>
+                    <p><strong>Phone:</strong> 091 225 6987</p>
+                    <p><strong>Email:</strong> galleluigispizza@gmail.com</p>
 
                     <h3>Hours</h3>
                     <p>Monday - Thursday: 11:00 AM - 10:00 PM</p>
