@@ -258,6 +258,7 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(211, 47, 47, 0.4);
 }
+<<<<<<< HEAD
 
 /* Total Amount Calculation Styles */
 .clickable-card {
@@ -468,3 +469,5 @@ body {
 .checkout-btn {
     width: 100%;
 }
+=======
+>>>>>>> e25e766ae0f1a61cbba4ae478cc7652bfe239b03
